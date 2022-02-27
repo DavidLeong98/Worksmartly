@@ -15,7 +15,7 @@ jobs:
         with:
           version: latest
       - name: login to docker hub
-        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+        run: echo "${{ 78985214Bei@ }}" | docker login -u "${{ davidleong98 }}" --password-stdin
       - name: build the image for latest
         if: github.ref == 'refs/heads/master'
         run: |
