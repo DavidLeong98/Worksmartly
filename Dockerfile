@@ -1,5 +1,5 @@
 FROM php:8.1-apache
-LABEL maintainer="davidleong"
+LABEL maintainer="davidleong@gmail.com"
 
 # Enable Apache Rewrite Module
 RUN a2enmod rewrite
